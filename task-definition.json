@@ -2,7 +2,7 @@
     {
         "environment": [],
         "name": "web-app",
-        "image": "${var.docker_image}",
+        "image": "${var.docker-image}",
        "cpu": 100,
         "memory": 128,
         "portMappings": [
