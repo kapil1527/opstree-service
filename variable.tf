@@ -24,7 +24,7 @@ variable "ecs-service-name" {
     default = "ops-service"
 }
 variable "docker-image" {
-    default = "980861075249.dkr.ecr.us-east-2.amazonaws.com/opstree-prod:gag"
+    default = "980861075249.dkr.ecr.us-east-1.amazonaws.com/opstree-prod:docker"
 }
 
 
