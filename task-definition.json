@@ -1,0 +1,14 @@
+[
+    {
+        "environment": [],
+        "name": "web-app",
+        "image": "${var.docker_image}",
+       "cpu": 100,
+        "memory": 128,
+        "portMappings": [
+            {
+                "containerPort": 8080,
+                "hostPort": 80
+            }]
+    }	    
+]
