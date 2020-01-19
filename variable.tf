@@ -14,11 +14,11 @@ variable "target-group-name" {
 }
 
 variable "vpc-id" {
-    default = "vpc-4dc15337"
+    description = "vpc id"
 }
 
 variable "security_group" {
-    default = "sg-705f8f29"
+    description = "sg"
 }
 variable "ecs-service-name" {
     default = "ops-service"
